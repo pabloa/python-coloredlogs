@@ -84,7 +84,7 @@ def find_pth_directory():
             else os.path.relpath(distutils.sysconfig.get_python_lib(), sys.prefix))
 
 
-setup(name='coloredlogs',
+setup(name='coloredlogspablo',
       version=get_version('coloredlogs', '__init__.py'),
       description="Colored terminal output for Python's logging module",
       long_description=get_contents('README.rst'),
